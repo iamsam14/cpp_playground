@@ -18,10 +18,10 @@ class Sport {
 
     std::string sport_name;
     std::string player_name;
+    int score;
 
     public:
     Sport(std::string add_sport_name, std::string add_player_name, int score = 0);
-    int score;
 
     std::string get_sport_name();
     std::string get_player_name();
